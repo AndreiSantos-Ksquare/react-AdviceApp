@@ -1,3 +1,3 @@
 # react-AdviceApp
 
-https://andreisantos-ksquare.github.io/react-AdviceApp/advice-app/
+https://main--soft-blini-6ef115.netlify.app/
