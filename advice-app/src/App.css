@@ -1,0 +1,169 @@
+
+
+:root {
+  --twitterIcon: url("assets/twitter.svg");
+  --whiteColor: white;
+  --blackColor: black;
+  --buttonColor: #005ba5;
+  --gray: #3f3f3f;
+}
+
+html {
+  display: flex;
+  flex-flow: column;
+  background-color:var(--blackColor);
+  color: var(--whiteColor);
+  width: 100%;
+  height: 100%;
+}
+
+/* body containers */
+body {
+  place-items: center;
+  align-items: center;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+}
+
+.header-style {
+  align-items: center;
+  display: grid;
+  width: 85%;
+  height: 100%;
+  padding: 24px 0px 24px 0px;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+main {
+  place-items: center;
+  align-items: center;
+  display: grid;
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 16px;
+  width: 85%;
+  height: 85%;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+
+}
+
+* {
+  /* border: solid; */
+}
+
+/* flex */
+.flex-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-right {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-self: right;
+}
+
+/* margin */
+.margin-right {
+  margin-right: 16px;
+}
+
+.margin-left {
+  margin-left: 16px;
+}
+
+/* grid templates */
+.grid-main-template {
+  place-items: center;
+  align-items: center;
+  display: grid;
+  width: 90%;
+  height: 90%;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+.grid-advice-content {
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  width: 95%;
+  height: 95%;
+  grid-template-columns: 100%;
+  grid-template-rows: 90% 10%;
+}
+
+.grid-advice {
+  border-radius: 16px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  width: 100%;
+  height: 80%;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+.grid-buttons {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  width: 100%;
+  height: 95%;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 100%;
+}
+
+.grid-change-button {
+  align-items: center;
+  justify-content: start;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+.grid-share-button {
+  align-items: center;
+  justify-content: end;
+  align-content: center;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+/* content styles */
+.button-change {
+  width: auto;
+  width: auto;
+  border: hidden;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-share {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: var(--twitterIcon);
+}
